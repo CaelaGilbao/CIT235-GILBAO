@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('bg1.webp'); 
+    background-size: auto; 
+    background-repeat: repeat;       
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    margin-top: 20px; 
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+.socmed_logo {
+  height: 40px; 
+  width: 40px; 
+  margin: 0 10px; 
+}
+
+#logo-text{
+  font-size: 12px;
+  color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 15%;
+    background-color: #fff; 
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+#header-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+#logo-header {
+    width: 180px; 
+    height: auto; 
+    padding-left: 20px;
+    margin: 5px; 
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;       
+    padding: 10px; 
+}
+
+nav li {
+    display: inline; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px; 
+}
+
+nav li:hover {
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #474787; 
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 50%; 
+  margin: 0;
+
+}
+
+.slide {
+  display: none;
+  animation: fade 3s linear infinite; 
+}
+
+.socmed_img {
+  margin-top: 15vh;
+  width:200%;
+  height: auto;
+}
+
+@keyframes fade {
+  0%, 100% {
+      opacity: 0;
+  }
+  25%, 75% {
+      opacity: 1;
+  }
+}
+
+#me-image1 {
+    position:relative;
+    display:flex;
+    bottom: 0;
+    margin-left: -10%;
+    margin-top: 10vh;
+}
+
+#me-image2 {
+    position:absolute;
+    display: flex;
+    bottom: 0;
+    margin-left: 0%;
+    margin-top: 200%;
+}
+
+#Lname {
+    margin-left: 45%;
+    margin-top: -72vh;
+    margin-bottom: 0%;
+    font-size: 750%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2c2c54;
+
+}
+
+#Fname {
+    margin-left: 63%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 360%;
+    font-family: Bradley Hand, cursive;
+    color: #ccae62;
+}
+
+.webdev{
+    margin-left:63%;
+    margin-top: 0%;
+    color: #2c2c54;
+    font-size: 135%;
+    text-transform: uppercase;
+    letter-spacing: 0.7em;
+}
+
+#quote{
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #cc8e35; 
+}
+
+.aboutme-content-middle{
+  box-sizing: border-box;
+  padding: 6%;
+  width: auto;
+  height: 50%;
+  border: 3px solid white;
+  background-color:#f7f1e3;
+  text-align: center;
+}
+
+.aboutme-content-middle-text{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+    color: #2c2c54;
+    margin: 10px 0;
+}
+
+.hobbies-box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hobbies-container{
+    background: #706fd3;
+    color: #f7f1e3;
+    margin: 0 20px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    width: 350px;
+    padding: 10px;
+    line-height: 20px;
+    position: relative;
+}
+
+.hobbies-container h3{
+  color: #f7f1e3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.name{
+  color:aquamarine ;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.description {
+  margin-left: 30px; 
+}
+
+.coc-tag {
+  margin-left: 30px; 
+}
+
+.hobbies-box2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hobbies-container2{
+    background: #474787;
+    color: #f7f1e3;
+    margin: 0 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 10px;
+    line-height: 20px;
+    position: relative;
+}
+
+.hobbies-container2 h3{
+  color: #f7f1e3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  text-align: center;
+}
