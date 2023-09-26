@@ -16,5 +16,5 @@ function showSlides() {
     
     slides[slideIndex - 1].style.display = 'block';
     
-    setTimeout(showSlides, 3000); // Change image every 3 seconds (adjust as needed)
+    setTimeout(showSlides, 3000);
 }
